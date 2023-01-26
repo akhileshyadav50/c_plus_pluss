@@ -8,5 +8,4 @@ int main(){
     cin>>n1;
     cin>>n2;
     cout<<sum(n1,n2);
-    return 0;
 }
