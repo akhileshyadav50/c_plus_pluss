@@ -16,7 +16,7 @@ class student{
         passcode = s;
         age = a;
     }
-    friend void hacker(student s);
+    friend void hacker(student s); 
 };
 void hacker(student s){
     cout<<s.passcode<<" "<<s.age<<endl;
